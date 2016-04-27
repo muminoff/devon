@@ -21,12 +21,15 @@ Uzbek NLP library
 Features
 --------
 
-* TODO
+* Segmentize words
 
 Credits
 ---------
 
 Sardor Muminov
+
 Hikmat Abdoollayev
+
 Ulughbek Muslimov
+
 Miradham Kamilov
