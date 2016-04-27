@@ -10,10 +10,10 @@ Tests for `devon` module.
 
 import unittest
 
-from devon import devon
+from devon.devon import WordProcessor
 
 
-class TestDevon(unittest.TestCase):
+class TestWordProcessor(unittest.TestCase):
 
     def setUp(self):
         pass
@@ -21,8 +21,9 @@ class TestDevon(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def test_000_something(self):
-        pass
+    def test_segmentize(self):
+        self.assertEqual(
+            WordProcessor.segmentize(word='sardor'), ('sar', 'dor'))
 
 
 if __name__ == '__main__':
