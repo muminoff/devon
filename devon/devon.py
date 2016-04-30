@@ -8,7 +8,7 @@ class WordProcessor(object):
 
     @staticmethod
     def segmentize(word):
-        vowels = ('a','e','u','i','o')
+        vowels = {'a','e','u','i','o'}
         word = word.lower()
         segments = list()
         start = -1
