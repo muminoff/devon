@@ -21,9 +21,9 @@ class TestWordProcessor(unittest.TestCase):
     def tearDown(self):
         pass
 
-	def test_stem(self):
-		self.assertEqual(
-			WordProcessor.stem(word='mahallalarimizdan'), ('mahalla'))
+    def test_stem(self):
+            self.assertEqual(
+                    WordProcessor.stem(word='mahallalarimizdan'), ('mahalla'))
 
     def test_segmentize(self):
         self.assertEqual(
