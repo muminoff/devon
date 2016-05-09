@@ -27,10 +27,10 @@ Features
 Contributors (alphabetical order)
 ---------
 
-Hikmat Abdoollayev (@ahikmat85)
+Hikmat Abdoollayev @ahikmat85
 
-Miradham Kamilov (@mkamilov)
+Miradham Kamilov @mkamilov
 
-Sardor Muminov (@muminoff)
+Sardor Muminov @muminoff
 
-Ulughbek Muslimov (@ulughbekula)
+Ulughbek Muslimov @ulughbekula
