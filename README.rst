@@ -22,6 +22,7 @@ Features
 --------
 
 * Segmentize words
+* Stemming
 
 Credits
 ---------
