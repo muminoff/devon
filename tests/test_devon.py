@@ -18,10 +18,10 @@ class TestWordProcessor(unittest.TestCase):
     def setUp(self):
         self.corpora_lat = """
         Barcha insonlar erkin, qadr-qimmat va huquqlarda tang bo‘lib tug‘iladilar. Ular aql va vijdon sohibidirlar va bir-birlariga birodarlarcha muomala qilishlari zarur.
-        """
+        """  # noqa
         self.corpora_cyr = """
         Барча инсонлар эркин, қадр-қиммат ва ҳуқуқларда танг бўлиб туғиладилар. Улар ақл ва виждон соҳибидирлар ва бир-бирларига биродарларча муомала қилишлари зарур.
-        """
+        """  # noqa
 
     def tearDown(self):
         del self.corpora_lat
@@ -30,7 +30,11 @@ class TestWordProcessor(unittest.TestCase):
     def test_stem(self):
         stemmer = FSMStemmer()
         stems = stemmer.stem(words=self.corpora_lat, multi_words=True)
-        expectation = ['Barcha', 'inson', 'erkin,', 'qadr-qimmat', 'va', 'huquq', 'ta', 'bo‘lib', 'tug‘iladilar.', 'U', 'aql', 'va', 'vijdon', 'sohibidir', 'va', 'bir-bir', 'birodarlarcha', 'muomala', 'qilish', 'zarur.']
+        expectation = [
+                'Barcha', 'inson', 'erkin,', 'qadr-qimmat', 'va',
+                'huquq', 'ta', 'bo‘lib', 'tug‘iladilar.', 'U', 'aql',
+                'va', 'vijdon', 'sohibidir', 'va', 'bir-bir',
+                'birodarlarcha', 'muomala', 'qilish', 'zarur.']
         self.assertEqual(stems, expectation)
 
     def test_segmentize(self):
