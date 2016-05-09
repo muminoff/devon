@@ -24,13 +24,13 @@ Features
 * Segmentize words
 * Stemming
 
-Credits
+Contributors (alphabetical order)
 ---------
 
-Sardor Muminov
+Hikmat Abdoollayev (@ahikmat85)
 
-Hikmat Abdoollayev
+Miradham Kamilov (@mkamilov)
 
-Ulughbek Muslimov
+Sardor Muminov (@muminoff)
 
-Miradham Kamilov
+Ulughbek Muslimov (@ulughbekula)
