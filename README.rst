@@ -27,10 +27,10 @@ Features
 Contributors (alphabetical order)
 ---------
 
-Hikmat Abdoollayev @ahikmat85
+[Hikmat Abdoollayev](https://github.com/ahikmat85)
 
-Miradham Kamilov @mkamilov
+[Miradham Kamilov](https://github.com/@mkamilov)
 
-Sardor Muminov @muminoff
+[Sardor Muminov](https://github.com/@muminoff)
 
-Ulughbek Muslimov @ulughbekula
+[Ulughbek Muslimov](https://github.com/@ulughbekula)
