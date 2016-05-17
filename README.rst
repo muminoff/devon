@@ -15,7 +15,7 @@ devon
 
 Uzbek NLP library
 
-* Free software: ISC license
+* Free software: MIT license
 * Documentation: https://devon.readthedocs.org.
 
 Features
